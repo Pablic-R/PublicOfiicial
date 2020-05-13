@@ -45,7 +45,7 @@ body{
   position:relative;
 }
 .clear{
-  clear:left;
+  
 }
 .header-menu li:hover{
   opacity: 1.0;
