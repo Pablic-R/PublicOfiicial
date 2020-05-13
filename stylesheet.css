@@ -90,5 +90,6 @@ body{
   padding-top: 5px;
 }
 .footer-list a:hover{
-  opacity: 1.0
+  opacity: 1.0;
+  text-decoration:underline;
 }
