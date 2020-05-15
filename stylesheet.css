@@ -59,6 +59,7 @@ header{
   border-bottom: 3px solid #dcdcdc;
   background-image: url(https://pbs.twimg.com/media/EYDiyKEU0AAPvn7?format=jpg&name=4096x4096);
   background-position:50% 50%;
+  background-attachment:scroll;
 }
 .middle-2{
   height:500px;
