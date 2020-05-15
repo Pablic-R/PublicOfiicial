@@ -1,96 +1,88 @@
-
-*{
+* {
   box-sizing: border-box;
 }
-ul{
-  list-style: none;
-}
-body{
+
+body {
   margin: 0;
 }
-.container{
-  width:100%;
-  width:100%;
-  margin:0 auto;
-}
-.top{
-  width:100%;
-  height:100px;
-  background-color: black;
-  opacity: 0.8;
-  position: fixed;
-  top:0px;
-  left:0px;
-  border-bottom: solid 2px black;
-}
-.header-menu{
-  width:100%;
-  height: 100px;
-}
-.logo img{
-  float: left;
-  height:100px;
-  position: fixed;
-  top:0px;
-  left:0px;
-  padding-right: 30px;
-}
-.header-menu li{
-  float: right;
-  font-size: 25px;
-  padding-right: 50px;
-  padding-left: 35px;
-  color: #fff;
-  opacity: 0.8;
-  line-height: 60px;
-  position: relative;
-}
-.clear{
 
-}
-.header-menu li:hover{
-  opacity: 1.0;
-}
-.header-list{
-  padding-left: 100px;
-}
-.logo{
-  color: white;
-}
-.main{
-  height:880px;
-}
-.Public-logo{
-  margin: 0 auto;
-  display: block;
-}
-.footer{
-  height: 200px;
-  width:100%;
-  background-color: black;
-  opacity:0.5;
-  float: left;
-}
-.footer-list{
-
-}
-.footer-list a{
-  color:#fff;
-  opacity:0.8;
-  display: block;
+a {
   text-decoration: none;
-  padding:;
-  padding-left: 30px;
-  font-size: 20px;
 }
-.footer-list p{
-  font-size: 20px;
-  color: white;
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+header{
+  background-color:rgba(0, 0, 0, 1.0);;
+  height:65px;
+  width:100%;
+  position: fixed;
+  top:0;
+}
+.header-left{
+  float:left;
+  height:65px;
+}
+.header-left img{
+  float: left;
+  width:100px;
+  height:65px;
+  border: none;
+}
+.header-left a{
+  display: block;
+  float: left;
+  padding-top:0;
+}
+.header-right{
+  float:right;
+}
+.header-right a{
+  float:left;
+  color:white;
+  display: block;
+  line-height: 65px;
+  padding:0 30px;
+  transition:all 0.5s;
+  background-color:black;
+}
+.header-right a:hover{
+  background-color:rgba(255, 255, 255, 0.3);
+}
+.middle-1{
+  height:900px;
+  border-bottom: 3px solid #dcdcdc;
+  background-image: url(https://pbs.twimg.com/media/EYDiyKEU0AAPvn7?format=jpg&name=4096x4096);
+  background-size: cover;
+}
+.middle-2{
+  height:500px;
+}
+footer{
+  width:100%;
+  height:300px;
+  background-color:#a9a9a9;
+}
+footer a{
+  display:block;
+  padding:10px;
+  color:#fff;
+  transition:all 0.5s;
+  background-color:#a9a9a9;
+  width:100px;
+}
+footer a:hover{
+  background-color:rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+footer p{
+  display:block;
   font-weight: bold;
-  padding-left: 30px;
-  padding-top: 5px;
+  padding:10px;
+  color:#fff;
 }
-.footer-list a:hover{
-  opacity: 1.0;
-  text-decoration:underline;
-}
+
