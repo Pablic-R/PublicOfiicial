@@ -93,6 +93,7 @@ footer p{
   color:#fff;
   float:right;
   font-size:30px;
-  padding:20px 0;
+  padding:0;
+  line-height:65px;
   display:none;
 }
