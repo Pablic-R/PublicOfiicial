@@ -1,0 +1,11 @@
+@media(max-width:960px){
+
+}
+@media(max-width:560px){
+.header-right{
+  display:none;
+}
+.menu-icon{
+  display:block;
+}
+}
