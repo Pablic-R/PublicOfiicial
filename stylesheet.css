@@ -88,3 +88,11 @@ footer p{
   color:#fff;
 }
 
+
+.menu-icon{
+  color:#fff;
+  float:right;
+  font-size:25px;
+  padding:25px 0;
+  display:none;
+}
